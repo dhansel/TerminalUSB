@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="app" projectFiles="true">
+        <logicalFolder name="f1" displayName="system_config" projectFiles="true">
+          <logicalFolder name="f1" displayName="default" projectFiles="true">
+            <logicalFolder name="f1" displayName="framework" projectFiles="true">
+              <logicalFolder name="f2" displayName="driver" projectFiles="true">
+                <logicalFolder name="f1" displayName="tmr" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/driver/tmr/src/drv_tmr_variant_mapping.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/driver/tmr/src/drv_tmr_local.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/driver/tmr/drv_tmr.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/driver/tmr/drv_tmr_mapping.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/driver/tmr/drv_tmr_compatibility.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/driver/tmr/tmr_definitions_pic32m.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f2" displayName="usb" projectFiles="true">
+                  <logicalFolder name="f1" displayName="usbfs" projectFiles="true">
+                    <logicalFolder name="f1" displayName="src" projectFiles="true">
+                      <itemPath>../src/system_config/default/framework/driver/usb/usbfs/src/drv_usbfs_local.h</itemPath>
+                      <itemPath>../src/system_config/default/framework/driver/usb/usbfs/src/drv_usbfs_variant_mapping.h</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/system_config/default/framework/driver/usb/usbfs/drv_usbfs.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/driver/usb/usbfs/drv_usbfs_mapping.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/driver/usb/drv_usb.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/system_config/default/framework/driver/driver.h</itemPath>
+                <itemPath>../src/system_config/default/framework/driver/driver_common.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="f3" displayName="osal" projectFiles="true">
+                <itemPath>../src/system_config/default/framework/osal/osal.h</itemPath>
+                <itemPath>../src/system_config/default/framework/osal/osal_definitions.h</itemPath>
+                <itemPath>../src/system_config/default/framework/osal/osal_impl_basic.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="f4" displayName="peripheral" projectFiles="true">
+                <logicalFolder name="f1" displayName="adc" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/processor/adc_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/processor/adc_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/processor/adc_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_CalibrationControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_MuxInputScanSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_MuxInputScanSelectExtended_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_VoltageReference_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_MuxChannel0PositiveInput_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_MuxChannel0NegativeInput_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_MuxInputScanControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_SamplingModeControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_SamplesPerInterruptSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_SamplingAutoStart_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_SamplingControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_SamplingAcquisitionTime_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_SamplingStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ConversionControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ConversionClock_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ConversionClockSource_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ConversionTriggerSource_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ConversionStopSequenceControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ConversionStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ResultFormat_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ResultBufferMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ResultBufferFillStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_ResultGetByIndex_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adc/templates/adc_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/adc/plib_adc.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f2" displayName="adchs" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/adchs/processor/adchs_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adchs/processor/adchs_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adchs/processor/adchs_processor.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/adchs/plib_adchs.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f3" displayName="adcp" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/adcp/processor/adcp_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adcp/processor/adcp_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/adcp/processor/adcp_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/adcp/templates/adcp_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/adcp/plib_adcp.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f4" displayName="bmx" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/processor/bmx_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/processor/bmx_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/processor/bmx_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_ArbitrationMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_DataRamWaitState_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_ProgramFlashMemoryCacheDma_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_BusExceptionIXI_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_BusExceptionICD_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_BusExceptionDMA_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_BusExceptionData_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_BusExceptionInstruction_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_ProgramFlashPartition_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_DataRAMPartition_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_ProgramFlashMemorySize_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_DataRAMSize_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_ProgramFlashBootSize_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/bmx/templates/bmx_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/bmx/plib_bmx.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f5" displayName="can" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/can/processor/can_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/can/processor/can_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/can/processor/can_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/can/templates/can_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/can/plib_can.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f6" displayName="cdac" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/cdac/processor/cdac_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cdac/processor/cdac_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cdac/processor/cdac_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/cdac/templates/cdac_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/cdac/plib_cdac.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f7" displayName="cmp" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/processor/cmp_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/processor/cmp_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/processor/cmp_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_ComparatorEnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_ComparatorOutputEnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_InvertOutputSelectControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_OutputStatusGet_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_InterruptEventSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_NonInvertingInputSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_InvertingInputSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_CVREFEnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_CVREFOutputEnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_CVREFWideRangeControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_CVREFVoltageRangeSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_CVREFRefVoltageRangeSelect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_CVREFBGRefVoltageRangeSelect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_CVREFValueSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_ComparatorEventStatusGet_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_ComparatorOutputDigitalFilter_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_OpAmpOutputEnableControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_OpAmpEnableControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_ComparatorOutputMasking_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/cmp/templates/cmp_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/cmp/plib_cmp.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/peripheral/cmp/plib_cmp_compatibility.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f8" displayName="ctmu" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/processor/ctmu_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/processor/ctmu_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/processor/ctmu_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_EdgeSensitivity_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_EdgePolarity_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_EdgeTriggerSource_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_EdgeStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_ModuleEnable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_TimePulseGeneration_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_EdgeEnable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_EdgeSequencing_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_CurrentDischarge_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_AutomaticADCTrigger_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_CurrentTrim_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_CurrentRange_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctmu/templates/ctmu_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/ctmu/plib_ctmu.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f9" displayName="ctr" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ctr/processor/ctr_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctr/processor/ctr_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ctr/processor/ctr_processor.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/ctr/plib_ctr.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f11" displayName="ddr" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ddr/processor/ddr_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ddr/processor/ddr_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ddr/processor/ddr_processor.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/ddr/plib_ddr.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f10" displayName="devcon" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/processor/devcon_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/processor/devcon_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/processor/devcon_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_AlternateClock_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_DeviceRegsLockUnlock_PIC32MX.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_OTPConfigLockUnlock_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_USB_PHY_SleepModeSet_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_ECCModes_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_JTAGEnable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_AnalogChargePumpControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_TraceOutput_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_JTAGUsesTDO_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_IgnoreDebugFreeze_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_DeviceVerAndId_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_SysLockUnlock_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_MPLL_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_HSUARTControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/devcon/templates/devcon_BootSelection_Unsupported.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/devcon/plib_devcon.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f12" displayName="dma" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/processor/dma_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/processor/dma_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/processor/dma_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_Busy_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_Suspend_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_StopInIdle_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelBits_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_LastBusAccess_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_RecentAddress_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_CRCChannel_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_CRCType_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_CRCAppendMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_Crc_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_CRCPolynomialLength_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_CRCBitOrder_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_CRCWriteByteOrder_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_CRCByteOrder_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_CRCData_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_CRCXOREnable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXPriority_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXEvent_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXAuto_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXChainEnbl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXDisabled_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelX_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXChain_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXPatternLength_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXPatternIgnoreByte_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXBusy_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXPatternIgnore_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXTrigger_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_AbortTransfer_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_StartTransfer_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXStartIRQ_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXAbortIRQ_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXINTSourceFlag_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXINTSource_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXSourceStartAddress_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXDestinationStartAddress_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXSourceSize_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXDestinationSize_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXSourcePointer_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXDestinationPointer_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXCellSize_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXCellProgressPointer_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_ChannelXPatternData_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dma/templates/dma_Registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/dma/plib_dma.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f13" displayName="dmt" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/dmt/processor/dmt_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dmt/processor/dmt_p32mxxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/dmt/processor/dmt_processor.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/dmt/plib_dmt.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f14" displayName="ebi" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ebi/processor/ebi_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ebi/processor/ebi_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ebi/processor/ebi_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ebi/templates/ebi_Registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/ebi/plib_ebi.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f15" displayName="eth" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/eth/processor/eth_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/eth/processor/eth_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/eth/processor/eth_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/eth/templates/eth_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/eth/plib_eth.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f16" displayName="glcd" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/glcd/processor/glcd_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/glcd/processor/glcd_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/glcd/processor/glcd_processor.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/glcd/plib_glcd.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f17" displayName="i2c" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/processor/i2c_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/processor/i2c_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/processor/i2c_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_ClockStretching_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_GeneralCall_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SMBus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_HighFrequency_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_ReservedAddressProtect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_IPMI_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_ModuleEnable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_StartDetect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_StopDetect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_ArbitrationLoss_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_BusIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_BaudRate_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveAddress7Bit_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveAddress10Bit_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveAddressDetect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_GeneralCallAddressDetect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveMask_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveReadRequest_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveDataDetect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveClockHold_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_MasterStart_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_MasterStartRepeat_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_MasterReceiverClock1Byte_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_MasterStop_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_TransmitterBusy_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_TransmitterByteSend_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_TransmitterByteComplete_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_TransmitterByteAcknowledge_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_TransmitterOverflow_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_ReceivedByteAvailable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_ReceivedByteGet_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_ReceivedByteAcknowledge_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_ReceiverOverflow_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveInterruptOnStop_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveInterruptOnStart_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveBufferOverwrite_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_DataLineHoldTime_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveBusCollisionDetect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveAddressHoldEnable_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_SlaveDataHoldEnable_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_AcksequenceIsInProgress_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/i2c/templates/i2c_Registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/i2c/plib_i2c.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/peripheral/i2c/plib_i2c_helper_macros.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f18" displayName="ic" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/processor/ic_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/processor/ic_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/processor/ic_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_EdgeCapture_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_EventsPerInterruptSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_BufferValue_32Bit_Variant.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_BufferIsEmptyStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_BufferOverflowStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_CaptureMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_BufferSize_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_TimerSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_AlternateClock_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_AlternateTimerSelect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ic/templates/ic_Registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/ic/plib_ic.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f19" displayName="int" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/int/processor/int_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/processor/int_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/processor/int_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_SingleVectorShadowSet_MX.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_VectorSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_ProximityTimerEnable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_ProximityTimerControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_ExternalINTEdgeSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_INTCPUPriority_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_INTCPUVector_MX.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_SourceFlag_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_SourceControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_VectorPriority_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_CPUCurrentPriorityLevel_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_EnableControl_PIC32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_ShadowRegisterAssign_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_VariableOffset_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/int/templates/int_SoftwareNMI_Unsupported.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/int/plib_int.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/peripheral/int/plib_int_private_pic32.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f20" displayName="mcpwm" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/mcpwm/processor/mcpwm_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/mcpwm/processor/mcpwm_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/mcpwm/processor/mcpwm_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/mcpwm/templates/mcpwm_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/mcpwm/plib_mcpwm.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f21" displayName="nvm" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/processor/nvm_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/processor/nvm_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/processor/nvm_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_WriteErrorStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_MemoryModificationControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_OperationMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_AddressModifyControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_ProvideData_MX.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_WriteOperation_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_KeySequence_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_SourceAddress_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_LowVoltageStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_LowVoltageError_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_FlashBankRegionSelect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_BootFlashBankRegion_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_ProvideQuadData_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_LockPFMSelect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_FlashWPMemoryRangeProvide_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_LockBootSelect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_BootPageWriteProtect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_SwapLockControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMEnableControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMStopInIdleControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMOperationModeControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMAddressControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMDataControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMKeySequence_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMEnableOperationControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMStartOperationControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMLongWriteStatus_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMOperationAbortControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMErrorStatus_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMCalibrationData_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/nvm/templates/nvm_EEPROMWaitStates_Unsupported.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/nvm/plib_nvm.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f22" displayName="oc" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/processor/oc_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/processor/oc_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/processor/oc_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_FaultInput_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_FaultStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_TimerSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_AlternateClock_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_AlternateTimerSelect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_BufferValue_32Bit_Variant.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_PulseWidth_32Bit_Variant.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_BufferSize_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_CompareModeSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/oc/templates/oc_Registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/oc/plib_oc.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f23" displayName="osc" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/processor/osc_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/processor/osc_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/processor/osc_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_OnWaitAction_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_SecondaryEnable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_SecondaryReady_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_FRCDivisor_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_OscSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_OscSwitchInit_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_OscCurrentGet_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PBClockDivisor_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PBClockReady_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_UsbClockSource_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PLLLockStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PLLClockLock_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PLLMultiplier_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_UPLLMultiplier_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_BTPLLMultiplier_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PLLOutputDivisor_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_UPLLOutputDivisor_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_BTPLLOutputDivisor_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ClockFail_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_FRCTuning_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ReferenceOscBaseClock_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ReferenceOscChange_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ReferenceOscChangeActive_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ReferenceOscStopInSleep_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ReferenceOutputEnable_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ReferenceOscStopInIdleEnable_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ReferenceOscEnable_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ReferenceOscDivisor_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ReferenceOscTrim_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PBClockOutputEnable_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PLLInputDivisor_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_UPLLInputDivisor_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_BTPLLInputDivisor_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PLLInputClockSource_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_BTPLLInputClockSource_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PLLFrequencyRange_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_BTPLLFrequencyRange_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_UPLLFrequencyRange_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_SleepToStartupClock_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ClockReadyStatus_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ClockDiagStatus_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ClockSlewingStatus_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_SlewEnableControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_SlewDivisorStepControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_SystemClockDivisorControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_DreamModeControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ForceLock_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_ResetPLL_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_PLLBypass_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/osc/templates/osc_BTPLLClockOut_Unsupported.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/osc/plib_osc.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f24" displayName="pcache" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/pcache/processor/pcache_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pcache/processor/pcache_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pcache/processor/pcache_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/pcache/templates/pcache_Registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/pcache/plib_pcache.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f25" displayName="pmp" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/processor/pmp_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/processor/pmp_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/processor/pmp_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_StartReadControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_DualBufferControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_StopInIdleControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_MUXModeSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_BufferType_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_WriteEnablePortControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_ReadWriteStrobePortControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_ChipSelectoperation_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_AddressLatchPolarity_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_ChipXPolarity_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_WriteEnablePolarity_Basic.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_ReadWritePolarity_Basic.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_BusyStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_InterruptMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_IncrementMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_DataTransferSize_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_OperationMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_DataSetUpWaitStates_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_DataStrobeWaitStates_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_DataHoldWaitStates_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_ChipSelectEnable_Basic.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_WriteChipSelectEnable_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_ReadChipSelectEnable_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_AddressControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_DualModeWriteAddressControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_DualModeReadAddressControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_AddressPortPinControl_Basic.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_AddressLatchStrobePortControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_InputBufferFull_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_BufferOverFlow_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_InputBufferXStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_OutPutBufferEmpty_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_BufferUnderFlow_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_OutputBufferXStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_BufferRead_32bit.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_BufferWrite_32bit.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_MasterRXTX_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_DualModeMasterRXTX_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_SlaveTX_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_SlaveRX_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/pmp/templates/pmp_CSXActiveStatus_Default.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/pmp/plib_pmp.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f26" displayName="ports" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/processor/ports_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/processor/ports_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/processor/ports_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_RemapInput_default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_RemapOutput_PIC32_2.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_PinMode_PPS.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_AnPinsMode_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_PortsRead_MCU32_PPS.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_LatchRead_MCU32_PPS.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_PortsWrite_MCU32_PPS.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_PortsDirection_MCU32_PPS.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_PortsOpenDrain_MCU32_PPS.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNotice_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_PinChangeNotice_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNoticeInIdle_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNoticePullup_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_PinModePerPort_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNoticePullDownPerPort_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNoticePullUpPerPort_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_PinChangeNoticePerPort_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNoticePerPortTurnOn_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNoticeInIdlePerPort_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNoticePerPortStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_SlewRateControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChannelChangeNoticeMethod_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNoticeEdgeControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ports/templates/ports_ChangeNoticeEdgeStatus_Unsupported.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/ports/plib_ports.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/peripheral/ports/plib_ports_compatibility.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f27" displayName="power" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/power/processor/power_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/processor/power_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/processor/power_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_PeripheralModuleControl_PIC32_1.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_VoltageRegulatorControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_SleepStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_IdleStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_HighVoltageOnVDD1V8_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_DeepSleepModeOccurrence_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_HLVDEnableControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_HLVDStopInIdleControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_HLVDStatus_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_HLVDModeControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_HLVDBandGapVoltageStability_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_HLVDLimitSelection_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_DeepSleepModeControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_DeepSleepGPRsRetentionControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_DeepSleepModuleControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_DeepSleepWakeupEventControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_DeepSleepPortPinsStateControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_DeepSleepEventStatus_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/power/templates/power_DeepSleepGPROperation_Unsupported.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/power/plib_power.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f28" displayName="ptg" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/ptg/processor/ptg_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ptg/processor/ptg_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/ptg/processor/ptg_processor.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/ptg/plib_ptg.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f29" displayName="reset" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/reset/processor/reset_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/reset/processor/reset_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/reset/processor/reset_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/reset/templates/reset_ResetReasonStatus_MX.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/reset/templates/reset_SoftwareResetTrigger_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/reset/templates/reset_ConfigRegReadError_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/reset/templates/reset_NmiControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/reset/templates/reset_WdtoInSleep_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/reset/templates/reset_NmiCounter_Unsupported.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/reset/plib_reset.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f30" displayName="rtcc" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/processor/rtcc_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/processor/rtcc_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/processor/rtcc_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_WriteEnable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_OutputSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_ClockSelect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_ClockRunning_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_Calibration_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_Sync_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_HalfSecond_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_OutputControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_AlarmControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_AlarmChimeControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_AlarmPulseInitial_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_AlarmSync_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_AlarmMaskControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_AlarmRepeatControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_RTCTime_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_RTCDate_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_AlarmTime_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_AlarmDate_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/rtcc/templates/rtcc_Registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/rtcc/plib_rtcc.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f31" displayName="sb" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/sb/processor/sb_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/sb/processor/sb_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/sb/processor/sb_processor.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/sb/plib_sb.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f32" displayName="spi" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/processor/spi_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/processor/spi_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/processor/spi_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_ReceiverOverflow_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_TransmitBufferFullStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_TransmitBufferEmptyStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_ReceiveBufferStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_PinControl_PIC32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_CommunicationWidth_PIC32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_AudioCommunicationWidth_PIC32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_InputSamplePhase_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_OutputDataPhase_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_ClockPolarity_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_MasterControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_BaudRate_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_BusStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_ReadDataSignStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_SlaveSelectControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_TransmitUnderRunStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FIFOControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FIFOCount_PIC32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_ReceiveFIFOStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FIFOShiftRegisterEmptyStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FIFOInterruptMode_PIC32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FramedCommunication_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FrameSyncPulseDirection_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FrameSyncPulsePolarity_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FrameSyncPulseEdge_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FrameSyncPulseWidth_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FrameSyncPulseCounter_PIC32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_FrameErrorStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_Buffer_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_BaudRateClock_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_ErrorInterruptControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_AudioErrorControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_AudioProtocolControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_AudioTransmitMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_AudioProtocolMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_Buffer32bit_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_Buffer16bit_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/spi/templates/spi_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/spi/plib_spi.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f33" displayName="sqi" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/sqi/processor/sqi_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/sqi/processor/sqi_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/sqi/processor/sqi_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/sqi/templates/sqi_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/sqi/plib_sqi.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f34" displayName="tmr" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/processor/tmr_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/processor/tmr_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/processor/tmr_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_GatedTimeAccumulation_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_ClockSource_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_Prescale_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_ClockSourceSync_Inverted.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_Mode16Bit_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_Mode32Bit_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_Counter16Bit_In16BitRegister.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_Counter32Bit_In16BitRegister.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_Period16Bit_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_Period32Bit_In16BitRegister_pic32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_CounterAsyncWriteControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_CounterAsyncWriteInProgress_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_TimerOperationMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/tmr/templates/tmr_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/tmr/plib_tmr.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f35" displayName="usart" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/processor/usart_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/processor/usart_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/processor/usart_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_HandShakeMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_IrDAControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_LineControlMode_RXandTXCombined.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_Loopback_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_OperationMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_RunInOverflow_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_BRGClockSourceSelect_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_UsartModuleStatus_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_RunInSleepMode_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_WakeOnStart_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_BaudRate_In16BitRegister.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_BaudRateAutoDetect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_BaudRateHigh_In16BitRegister.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_Receiver_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_Receiver9Bits_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverAddressAutoDetect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverAddressDetect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverAddress_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverAddressMask_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverDataAvailable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverEnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverFramingError_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverInterruptMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverPolarityInvert_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverParityError_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_ReceiverOverrunError_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_Transmitter_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_Transmitter9Bits_InDataOnly.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_TransmitterBreak_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_TransmitterBufferFull_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_TransmitterEmpty_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_TransmitterEnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_TransmitterInterruptMode_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_TransmitterIdleIsLow_pic32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usart/templates/usart_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/usart/plib_usart.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f36" displayName="usb" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/processor/usb_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/processor/usb_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/processor/usb_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_InterruptStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_Interrupt_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_IDPinState_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_LineState_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_SessionValid_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_BSessionEnd_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_ASessionValid_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_PullUpPullDown_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_VbusPowerOnOff_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_VbusCharge_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OTG_VbusDischarge_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_ActivityPending_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_SleepEntryGuard_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_ModuleBusy_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_Suspend_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_ModulePower_32Bit16Bit.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_GEN_InterruptStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_GEN_Interrupt_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_ALL_Interrupt_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_ERR_InterruptStatus_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_ERR_Interrupt_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_LastEndpoint_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_LastDirection_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_LastPingPong_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_LastTransactionDetails_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_LiveJState_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_LiveSingleEndedZero_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_PacketTransfer_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_HostBusyWithToken_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_HostGeneratesReset_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OpModeSelect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_ResumeSignaling_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_BufferFreeze_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_StartOfFrames_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_NextTokenSpeed_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_DeviceAddress_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_FrameNumber_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_TokenPID_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_TokenEP_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_SOFThreshold_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_BDTBaseAddress_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_EyePattern_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_StopInIdle_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_AutomaticSuspend_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_PingPongMode_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_UOEMonitor_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OnChipPullup_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_OnChipTransceiver_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_SpeedControl_Unsupported.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_EP0LowSpeedConnect_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_EP0NAKRetry_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_EPnTxRx_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_EPnRxEnableEnhanced_PIC32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_BDTFunctions_PIC32.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usb/templates/usb_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/usb/plib_usb.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f37" displayName="usbhs" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/usbhs/processor/usbhs_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usbhs/processor/usbhs_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/usbhs/processor/usbhs_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/usbhs/templates/usbhs_registers.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/usbhs/plib_usbhs.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f38" displayName="wdt" projectFiles="true">
+                  <logicalFolder name="f1" displayName="processor" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/wdt/processor/wdt_p32mx250f128b.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/wdt/processor/wdt_p32xxxx.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/wdt/processor/wdt_processor.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="f2" displayName="templates" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/peripheral/wdt/templates/wdt_EnableControl_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/wdt/templates/wdt_WindowEnable_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/wdt/templates/wdt_TimerClear_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/wdt/templates/wdt_PostscalerValue_Default.h</itemPath>
+                    <itemPath>../src/system_config/default/framework/peripheral/wdt/templates/wdt_SleepModePostscalerValue_Unsupported.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/peripheral/wdt/plib_wdt.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/system_config/default/framework/peripheral/peripheral.h</itemPath>
+                <itemPath>../src/system_config/default/framework/peripheral/peripheral_common.h</itemPath>
+                <itemPath>../src/system_config/default/framework/peripheral/peripheral_common_32bit.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="f1" displayName="system" projectFiles="true">
+                <logicalFolder name="f3" displayName="clk" projectFiles="true">
+                  <itemPath>../src/system_config/default/framework/system/clk/sys_clk.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/system/clk/sys_clk_compatibility.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/system/clk/sys_clk_mapping.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f2" displayName="common" projectFiles="true">
+                  <itemPath>../src/system_config/default/framework/system/common/sys_common.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/system/common/sys_module.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/system/common/sys_buffer.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/system/common/sys_queue.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f5" displayName="debug" projectFiles="true">
+                  <itemPath>../src/system_config/default/framework/system/debug/sys_debug.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f1" displayName="devcon" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/system/devcon/src/sys_devcon_local.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/system/devcon/sys_devcon.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f6" displayName="int" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/system/int/src/sys_int_private.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/system/int/sys_int.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/system/int/sys_int_mapping.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f4" displayName="ports" projectFiles="true">
+                  <itemPath>../src/system_config/default/framework/system/ports/sys_ports.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/system/ports/sys_ports_definitions.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="f7" displayName="tmr" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/system/tmr/src/sys_tmr_local.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/system_config/default/framework/system/tmr/sys_tmr.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/system_config/default/framework/system/system.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="f5" displayName="usb" projectFiles="true">
+                <logicalFolder name="f1" displayName="src" projectFiles="true">
+                  <itemPath>../src/system_config/default/framework/usb/src/usb_host_local.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/usb/src/usb_host_hub_mapping.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/usb/src/usb_host_hid_local.h</itemPath>
+                  <itemPath>../src/system_config/default/framework/usb/src/usb_host_hid_keyboard_local.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/system_config/default/framework/usb/usb_common.h</itemPath>
+                <itemPath>../src/system_config/default/framework/usb/usb_chapter_9.h</itemPath>
+                <itemPath>../src/system_config/default/framework/usb/usb_hub.h</itemPath>
+                <itemPath>../src/system_config/default/framework/usb/usb_host_hub.h</itemPath>
+                <itemPath>../src/system_config/default/framework/usb/usb_host.h</itemPath>
+                <itemPath>../src/system_config/default/framework/usb/usb_host_hub_interface.h</itemPath>
+                <itemPath>../src/system_config/default/framework/usb/usb_host_client_driver.h</itemPath>
+                <itemPath>../src/system_config/default/framework/usb/usb_host_hid.h</itemPath>
+                <itemPath>../src/system_config/default/framework/usb/usb_hid.h</itemPath>
+                <itemPath>../src/system_config/default/framework/usb/usb_host_hid_keyboard.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <itemPath>../src/system_config/default/system_config.h</itemPath>
+            <itemPath>../src/system_config/default/system_definitions.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="system_config" projectFiles="true">
+        <logicalFolder name="f1" displayName="default" projectFiles="true">
+          <itemPath>../src/system_config/default/app_mx.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="app" projectFiles="true">
+        <logicalFolder name="f1" displayName="system_config" projectFiles="true">
+          <logicalFolder name="f1" displayName="default" projectFiles="true">
+            <logicalFolder name="f1" displayName="framework" projectFiles="true">
+              <logicalFolder name="f2" displayName="driver" projectFiles="true">
+                <logicalFolder name="f1" displayName="tmr" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
+                      <itemPath>../src/system_config/default/framework/driver/tmr/src/dynamic/drv_tmr.c</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="f2" displayName="usb" projectFiles="true">
+                  <logicalFolder name="f1" displayName="usbfs" projectFiles="true">
+                    <logicalFolder name="f1" displayName="src" projectFiles="true">
+                      <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
+                        <itemPath>../src/system_config/default/framework/driver/usb/usbfs/src/dynamic/drv_usbfs.c</itemPath>
+                        <itemPath>../src/system_config/default/framework/driver/usb/usbfs/src/dynamic/drv_usbfs_host.c</itemPath>
+                      </logicalFolder>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="f1" displayName="system" projectFiles="true">
+                <logicalFolder name="f1" displayName="clk" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/system/clk/src/sys_clk_pic32mx.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="f2" displayName="devcon" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/system/devcon/src/sys_devcon.c</itemPath>
+                    <itemPath>../src/system_config/default/framework/system/devcon/src/sys_devcon_pic32mx.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="f4" displayName="int" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/system/int/src/sys_int_pic32.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="f3" displayName="ports" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/system/ports/src/sys_ports_static.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="f5" displayName="tmr" projectFiles="true">
+                  <logicalFolder name="f1" displayName="src" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/system/tmr/src/sys_tmr.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="f3" displayName="usb" projectFiles="true">
+                <logicalFolder name="f1" displayName="src" projectFiles="true">
+                  <logicalFolder name="f1" displayName="dynamic" projectFiles="true">
+                    <itemPath>../src/system_config/default/framework/usb/src/dynamic/usb_host.c</itemPath>
+                    <itemPath>../src/system_config/default/framework/usb/src/dynamic/usb_host_hid.c</itemPath>
+                    <itemPath>../src/system_config/default/framework/usb/src/dynamic/usb_host_hid_keyboard.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <itemPath>../src/system_config/default/system_init.c</itemPath>
+            <itemPath>../src/system_config/default/system_interrupt.c</itemPath>
+            <itemPath>../src/system_config/default/system_exceptions.c</itemPath>
+            <itemPath>../src/system_config/default/system_tasks.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../src/main.c</itemPath>
+        <itemPath>../src/Keyboard.c</itemPath>
+        <itemPath>../src/Video.c</itemPath>
+        <itemPath>../src/vt100.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src</Elem>
+    <Elem>../../..</Elem>
+    <Elem>..\src</Elem>
+    <Elem>..\src\default</Elem>
+    <Elem>..\src\system_config\default</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC32MX250F128B</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>1.44</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>../src/system_config/default/bin/framework/peripheral/PIC32MX250F128B_peripherals.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="true"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/system_config/default;../src/default;../src/system_config/default/framework"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="allocate-dinit" value="false"/>
+        <property key="code-dinit" value="false"/>
+        <property key="ebase-addr" value=""/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value="256"/>
+        <property key="input-libraries" value=""/>
+        <property key="kseg-length" value=""/>
+        <property key="kseg-origin" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-device-startup-code" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="serial-length" value=""/>
+        <property key="serial-origin" value=""/>
+        <property key="stack-size" value="1024"/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
+      <C32Global>
+        <property key="common-include-directories" value=""/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="false"/>
+        <property key="mdtcm" value=""/>
+        <property key="mitcm" value=""/>
+        <property key="mstacktcm" value="false"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="wpo-lto" value="false"/>
+      </C32Global>
+      <PICkit3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="CTMU" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SPI/I2S 1" value="true"/>
+        <property key="SPI/I2S 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="USB" value="true"/>
+        <property key="firmware.download.all" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="1d000000-1d003fff"/>
+        <property key="poweroptions.powerenable" value="true"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${programoptions.preservedataflash.ranges}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VPPFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </PICkit3PlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>
