@@ -2,7 +2,7 @@
 
 This is a modified firmware for [Geoff Graham's ASCII Video Terminal](http://geoffg.net/terminal.html) which 
 changes it to use a keyboard connected to the USB port instead of the PS/2 port. All other features of the
-terminal are identical to the original, except for the USB-to-serial bridge functionally (since the USB port
+terminal are identical to the original, except for the USB-to-serial bridge functionality (since the USB port
 is now used for the keyboard).
 
 ## Hardware
