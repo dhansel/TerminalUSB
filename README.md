@@ -25,7 +25,8 @@ need to place a jumper on the "USB PWR" jumper pad so the keyboard receives powe
 The new software can be applied as a firmware update to the Terminal. Just follow 
 [Geoff's instructions](http://geoffg.net/Downloads/Terminal/Terminal_V1.3_UPGRADE.zip) from his V1.3 firmware update,
 When loading the HEX file, use [this](https://raw.githubusercontent.com/dhansel/TerminalUSB/master/TerminalUSB_V1.3_UPGRADE.hex)
-instead of the HEX file in Geoff's archive.
+instead of the HEX file in Geoff's archive. It is always possible to revert the Terminal to the original
+state by (re-)applying Geoff's original V1.3 update.
 
 ## Keyboard Compatibility
 
