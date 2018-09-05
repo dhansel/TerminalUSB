@@ -33,3 +33,8 @@ This firmware requires the USB keyboard to be directly connected to the Terminal
 USB socket. If there is a USB hub in between the terminal and the keyboard then the keyboard will not work.
 Some keyboards have built-in USB hubs and those will *not* work either. If your keyboard has
 USB sockets on it (to connect a mouse for example) then it will likely not work.
+
+## Source Code
+
+The source code is provided in the "firmware" subdirectory. The main parts are almost identical (with minor 
+modifications) to Geoff's code, except for the keyboard support. To compile, use MPLAB X version or later.
