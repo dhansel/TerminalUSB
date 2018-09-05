@@ -5,7 +5,7 @@ changes it to use a keyboard connected to the USB port instead of the PS/2 port.
 terminal are identical to the original, except for the USB-to-serial bridge functionally (since the USB port
 is now used for the keyboard).
 
-#Hardware
+# Hardware
 
 No modification to the original hardware is necessary. There are a couple of things to note:
 
@@ -20,14 +20,14 @@ or [this](https://www.computercablestore.com/usb-adapter-usb-a-female-to-usb-min
 the Terminal. You need to power the terminal from the external 5V power connector. *Additionally* you
 need to place a jumper on the USB PWR jumper pad so the keyboard receives power.
 
-#Software
+# Software
 
 The new software can be applied as a firmware update to the terminal. Just follow 
 [Geoff's instructions](http://geoffg.net/Downloads/Terminal/Terminal_V1.3_UPGRADE.zip) from his V1.3 firmware update,
 When loading the HEX file, use [this](https://raw.githubusercontent.com/dhansel/TerminalUSB/master/TerminalUSB_V1.3_UPGRADE.hex)
 instead of the HEX file in Geoff's archive.
 
-#Compatibility
+# Compatibility
 
 Note that this firmware requires the USB keyboard to be directly connected to the terminal
 USB socket. If there is a USB hub in between the terminal and the keyboard then the keyboard will not work.
