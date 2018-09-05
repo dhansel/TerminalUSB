@@ -11,8 +11,8 @@ No modification to the original hardware is necessary. There are a couple of thi
 
 1. *USB Connector*. The USB connector on Geoff's terminal is used to plug the terminal
 into a computer as a client device, therefore the connector is a USB type B client side
-connector. To plug in a keyboard, you need a type A host side connector. The easiest way
-to do this is to use a converter like [this](https://www.computercablestore.com/usb-20-adapter-usb-a-female-to-usb-b-male) 
+connector. To plug in a keyboard, you need a type A host side connector. You can use a converter 
+like [this](https://www.computercablestore.com/usb-20-adapter-usb-a-female-to-usb-b-male) 
 (or [this](https://www.showmecables.com/micro-usb-2-b-male-to-a-female-6-in) 
 or [this](https://www.computercablestore.com/usb-adapter-usb-a-female-to-usb-mini-5-male) depending on your socket).
 
