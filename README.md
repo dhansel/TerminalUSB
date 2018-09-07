@@ -32,8 +32,8 @@ state by (re-)applying Geoff's original V1.3 update.
 
 This firmware requires the USB keyboard to be directly connected to the Terminal's
 USB socket. If there is a USB hub in between the terminal and the keyboard then the keyboard will not work.
-Some keyboards have built-in USB hubs and those will *not* work either. If your keyboard has
-USB sockets on it (to connect a mouse for example) then it will likely not work.
+Some keyboards have built-in USB hubs and those will no* work either. If your keyboard has
+USB sockets on it (to connect a mouse for example) then it likely contains a USB hub and will not work.
 
 ## Source Code
 
