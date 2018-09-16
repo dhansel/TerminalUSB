@@ -40,7 +40,7 @@ USB sockets on it (to connect a mouse for example) then it likely contains a USB
 The source code is provided in the "[firmware](https://github.com/dhansel/TerminalUSB/tree/master/firmware)" 
 subdirectory. The main parts are almost identical (with minor modifications) to Geoff's code, except for the
 USB keyboard support. To compile, use MPLAB X version 4.05 or later. There are two different configurations,
-"Bootload" and "Programmer". Use "Bootload" to create a .hex file that can be uploaded via the bootloader
-and "Programmer" to create a .hex file that can be uploaded direclty via MPLAB (IDE or IPE).
+"Bootload" and "Programmer". Use "Bootload" to create a .hex file that can be uploaded via the bootloader.
+Use "Programmer" to create a .hex file that can be uploaded directly via the MPLAB (IDE or IPE).
 Note that when the "bootload" configuration is selected you will not be able to run or debug the code from 
 within the MPLAB X IDE (will upload but not run properly).
