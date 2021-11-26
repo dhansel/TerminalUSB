@@ -48,7 +48,7 @@ within the MPLAB X IDE (will upload but not run properly).
 Recently (as of October 2021) I have received feedback from two people who compiled the code with a 
 recent version of MPLAB X. This required installing some extra legacy library and compilers.
 
-**Steve Willoughby** did the following to successfully compile the code:
+**Steve Willoughby** (steve@madscience.zone) did the following to successfully compile the code:
 - Download and install the 1.40 version of the XC32 compiler:
   - Go to  https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-ecosystem-downloads-archive 
   - Scroll down to "Language Tool Archive" and find the column for MPLAB XC32
