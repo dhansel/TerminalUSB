@@ -44,3 +44,31 @@ USB keyboard support. To compile, use MPLAB X version 4.05 or later. There are t
 Use "Programmer" to create a .hex file that can be uploaded directly via the MPLAB (IDE or IPE).
 Note that when the "bootload" configuration is selected you will not be able to run or debug the code from 
 within the MPLAB X IDE (will upload but not run properly).
+
+Recently (as of October 2021) I have received feedback from two people who compiled the code with a 
+recent version of MPLAB X. This required installing some extra legacy library and compilers.
+
+**Steve Willoughby** did the following to successfully compile the code:
+- Download and install the 1.40 version of the XC32 compiler:
+  - Go to  https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-ecosystem-downloads-archive 
+  - Scroll down to "Language Tool Archive" and find the column for MPLAB XC32
+  - In that column, click the link for "v1.40 (Linux)" (or whatever your operating system is)
+- Install the legacy plib library from Microchip:
+  - Go to  https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-xc-compilers
+  - Scroll down and click the "Compiler Downloads" column
+  - Scroll down further to "Legacy Peripheral Libraries"
+  - Click on the "PIC32 Legacy Peripheral Libraries" for your operating system
+
+It is important to install the compiler first, and then the plib library. After installing, start the MPLAB IDE.
+Open your project properties and set the "Compiler Toolchain" setting to XC32 (v1.40).
+
+**Rees Machtemes** succeeded with this procedure:
+- Download and install the xc32 v1.44 compiler for your system
+- Download and install the pic32 peripheral libraries. On MacOS, use this link:
+  https://microchipsupport.force.com/s/article/PIC32-Legacy-peripheral-Library-for-MAC-OS
+- Since the optional Harmony plug-in App was used to build this project in the beginning, install it.
+  - From within MPLAB X IDE, Tools>Plugins and click Available Plugins.
+  - Check "MPLAB Harmony Configurator" version 2.0.5.x
+  - and click Install.
+  - Restart MPLAB.
+- Now build the TerminalUSB project and enjoy tweaking
