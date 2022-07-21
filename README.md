@@ -1,5 +1,9 @@
 # TerminalUSB
 
+*[If you are looking for a VT100 terminal that supports USB keyboards then I recommend taking a look at 
+[VersaTerm](https://github.com/dhansel/VersaTerm) which supports more USB keyboards, has better VT100
+support, supports HDMI monitors and is much more configurable than this project]*
+
 This is a modified firmware for [Geoff Graham's ASCII Video Terminal](http://geoffg.net/terminal.html) which 
 changes it to use a keyboard connected to the USB port instead of the PS/2 port. All other features of the
 terminal are identical to the original, except for the USB-to-serial bridge functionality (since the USB port
